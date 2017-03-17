@@ -18,7 +18,12 @@ public class TextController : MonoBehaviour {
     {
 		if (Input.GetKeyDown(KeyCode.Space))
         {
-            text.text = "Space key pressed!";
+            text.text = "TREACHERY! You were framed for a theft you did not commit and are now locked in a prison cell. " +
+                        "There are some dirty sheets on the bed, a mirror on the wall, and a door. " +
+                        "The door is locked from the outside and there are thick bars on the door's window. \n\n" +
+                        "Press S to inspect the Sheets\n" +
+                        "Press M to inspect the Mirror\n" +
+                        "Press L to inspect the Lock";
         }
 	}
 }
