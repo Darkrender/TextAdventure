@@ -10,7 +10,7 @@ public class TextController : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-        text.text = "Hello world";
+        text.text = "Press any key to begin...";
 	}
 	
 	// Update is called once per frame
